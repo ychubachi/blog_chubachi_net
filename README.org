@@ -1,3 +1,5 @@
 * README
 
 - 将来 cms.chubachi.net にする
+- Heroku側でGitHubとの連携を行いました
+  - Travis関係なくdeploy
