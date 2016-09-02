@@ -75,3 +75,5 @@ group :development do
   gem 'guard'
   gem 'guard-livereload'
 end
+
+gem 'quiet_assets', group: :development
