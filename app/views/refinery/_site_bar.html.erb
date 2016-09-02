@@ -1,3 +1,4 @@
+<!-- BEGIN: _site_bar.html.erb -->
 <% if display_site_bar? %>
   <% unless admin? # all required JS included by backend. %>
     <% content_for :stylesheets, stylesheet_link_tag('refinery/site_bar') unless !!local_assigns[:exclude_css] %>
@@ -27,3 +28,4 @@
     </div>
   </div>
 <% end %>
+<!-- END: _site_bar.html.erb -->
