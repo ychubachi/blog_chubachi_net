@@ -73,6 +73,7 @@ gem 'refinerycms-authentication-devise', '~> 1.0'
 
 group :development do
   gem 'guard'
+  gem 'guard-bundler', require: false
   gem 'guard-livereload'
 end
 
